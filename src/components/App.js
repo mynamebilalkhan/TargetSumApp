@@ -1,11 +1,10 @@
-import { StyleSheet, Text, View } from 'react-native'
-import React from 'react'
+import { StyleSheet, Text, View } from 'react-native';
+import Game from './Game';
+import React from 'react';
 
 const App = () => {
   return (
-    <View style={styles.container}>
-      <Text>App Component</Text>
-    </View>
+    <Game randomNumberCount={6} />
   )
 }
 
