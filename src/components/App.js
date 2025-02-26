@@ -4,7 +4,7 @@ import React from 'react';
 
 const App = () => {
   return (
-    <Game randomNumberCount={6} />
+    <Game randomNumberCount={6} initialSeconds={10} />
   )
 }
 
